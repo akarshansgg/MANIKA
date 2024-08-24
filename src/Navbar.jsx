@@ -34,11 +34,11 @@ function Navbar() {
       <div className="flex justify-between items-center h-16">
         <div className="flex space-x-2 items-center">
           <a href="hhttps://www.linkedin.com/in/manika-m-manika/">
-            <img
+{/*             <img
               src="public\logo (2).png"
               className="h-12 w-12 rounded-full border border-gray-300"
               alt="Profile"
-            />
+            /> */}
           </a>
           <a href="https://www.linkedin.com/in/manika-m-manika/">
             <h1 className="font-semibold text-xl cursor-pointer text-gray-800 dark:text-gray-100">
