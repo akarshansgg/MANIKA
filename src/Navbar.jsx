@@ -35,8 +35,8 @@ function Navbar() {
         <div className="flex space-x-2 items-center">
           <a href="hhttps://www.linkedin.com/in/manika-m-manika/">
             <img
-              src="public\figma.png"
-              className="h-12 w-12 rounded-full border border-gray-300"
+              src="public\logo.png"
+              className="h-12 w-12  border-gray-300"
               alt="Profile"
             />
           </a>
