@@ -29,17 +29,12 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-Hi I am Manikya M , your new ux/ui designer who is here to make a difference with designs that matter. 
-My mission is to leverage my skills and creativity to deliver innovative  Design solutions that exceed client expectations and make a positive impact on the digital landscape. I am dedicated to continuous learning and growth, always seeking new challenges and opportunities to expand my expertise.</p>            <br />
+            Hey there! I'm Manikya M, a passionate UI/UX Designer from Odisha, India, on a mission to create digital experiences that not only look good but also feel amazing. I believe in the magic of design to solve problems and connect with users on a deeper level. With a knack for blending aesthetics and functionality, I bring a unique perspective and always aim for excellence in every project I work on.</p>            <br />
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
               <div className="space-y-2">
                 <h1 className="font-bold text-center">Active on</h1>
                 <ul className="flex space-x-5">
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <GrInstagram className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href="https://www.linkedin.com/in/manika-m-manika/"target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
@@ -59,8 +54,8 @@ My mission is to leverage my skills and creativity to deliver innovative  Design
                 <SiFigma className="text-2xl md:text-3xl hover:scale-110 duration-200 cursor-pointer" />
                 <SiAdobephotoshop className="text-2xl md:text-3xl hover:scale-110 duration-200  cursor-pointer" />
                 <SiSketch className="text-2xl md:text-3xl hover:scale-110 duration-200  cursor-pointer" />
-                <SiBehance className="text-2xl md:text-3xl hover:scale-110 duration-200  cursor-pointer" />
-
+                <a href="https://www.behance.net/mamsmunu"><SiBehance className="text-2xl md:text-3xl hover:scale-110 duration-200  cursor-pointer" />
+                </a>
                 </div>
               </div>
             </div>
@@ -77,4 +72,3 @@ My mission is to leverage my skills and creativity to deliver innovative  Design
 }
 
 export default Home;
-
