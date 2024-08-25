@@ -34,7 +34,11 @@ function Home() {
               <div className="space-y-2">
                 <h1 className="font-bold text-center">Active on</h1>
                 <ul className="flex space-x-5">
-
+                  <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <GrInstagram className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
                   <li>
                     <a href="https://www.linkedin.com/in/manika-m-manika/"target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
@@ -62,8 +66,8 @@ function Home() {
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 flex flex-col items-center">
             <img src={pic} className="rounded-full md:w-[450px] md:h-[450px]" alt="profile" />
-{/*             <a
-              href="/Manikam.pdf" // Update this to the actual path of your CV
+            {/* <a
+              href="/public/manikam.pdf" // Update this to the actual path of your CV
               download
               className="mt-6 px-6 py-3 bg-blue-500 text-white text-lg font-bold rounded-full hover:bg-blue-600 transition duration-300"
             >
