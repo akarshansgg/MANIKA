@@ -1,11 +1,7 @@
 import React, { useState } from "react";
-import Spotify from "../public/Spotify.png";
-import Food from "../public/Food.png";
 import Weather from "../public/Weather.png";
-import Game from "../public/Game.png";
-import Lending from "../public/Lending.png";
-import Netflix from "../public/Netflix.png";
-import Buddy from "../public/Buddy.jpg";
+import Food from "../public/Food.png";
+import Buddy from "../public/buddy.jpg";
 
 function Project() {
   const [expanded, setExpanded] = useState({});
@@ -17,40 +13,34 @@ function Project() {
     }));
   };
 
- // Instead of importing images, reference them directly
-const cardItems = [
-  {
-    id: 1,
-    logo: "/Weather.png", // Update with correct path and extension
-    name: "Weather Website",
-    link: "https://www.behance.net/mamsmunu",
-    description:
-      "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
-  },
-  {
-    id: 2,
-    logo: "/Food.png", // Update with correct path and extension
-    name: "Food Delivery App Design",
-    link: "https://www.behance.net/mamsmunu",
-    description:
-      "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
-  },
-  {
-    id: 3,
-    logo: "/Buddy.jpg", // Update with correct path and extension
-    name: "Plant Buddy Application",
-    link: "https://www.behance.net/mamsmunu",
-    description:
-      "An intuitive app designed to help users care for their plants with ease. Features include watering schedules, sunlight recommendations, and plant health tracking, ensuring your plants thrive.",
-  },
-];
-
+  const cardItems = [
+    {
+      id: 1,
+      logo: Weather,
+      name: "Weather Website",
+      description:
+        "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
+    },
+    {
+      id: 2,
+      logo: Food,
+      name: "Food Delivery App Design",
+      link: "https://www.behance.net/mamsmunu",
+      description:
+        "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
+    },
+    {
+      id: 3,
+      logo: Buddy,
+      name: "Buddy Plant Application",
+      link: "https://www.behance.net/mamsmunu",
+      description:
+        "Plant Buddy is a mobile app that simplifies life for plant buyers and sellers. Buyers can easily filter and order houseplants for delivery, while sellers can list plants, earn PB Bucks, and use them to purchase plants of their choice.",
+    },
+  ];
 
   return (
-    <div
-      name="Project"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-8 lg:px-16 my-12"
-    >
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-8 lg:px-16 my-12">
       <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">
         Live Projects
       </h1>
