@@ -6,6 +6,7 @@ import Game from "../public/Game.png";
 import Lending from "../public/Lending.png";
 import Netflix from "../public/Netflix.png";
 import Buddy from "../public/Buddy.jpg";
+
 function Project() {
   const [expanded, setExpanded] = useState({});
 
@@ -16,34 +17,31 @@ function Project() {
     }));
   };
 
-  const cardItem = [
-    
-  
+  const cardItems = [
     {
       id: 1,
       logo: Weather,
       name: "Weather Website",
       link: "https://www.behance.net/mamsmunu",
-
-      description: "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
+      description:
+        "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
     },
-   
     {
       id: 2,
       logo: Food,
       name: "Food Delivery App Design",
       link: "https://www.behance.net/mamsmunu",
-      description: "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
+      description:
+        "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
     },
     {
       id: 3,
       logo: Buddy,
       name: "Plant Buddy Application",
       link: "https://www.behance.net/mamsmunu",
-      description: "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
+      description:
+        "An intuitive app designed to help users care for their plants with ease. Features include watering schedules, sunlight recommendations, and plant health tracking, ensuring your plants thrive.",
     },
-    
-   
   ];
 
   return (
@@ -55,12 +53,12 @@ function Project() {
         Live Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {cardItem.map(({ id, logo, name, link, description }) => (
+        {cardItems.map(({ id, logo, name, link, description }) => (
           <div
             key={id}
             className="border-2 border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300 overflow-hidden bg-white"
           >
-            <a href={link} target="_blank" rel="no opener no-referrer">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="relative cursor-pointer">
                 <img
                   src={logo}
@@ -80,9 +78,7 @@ function Project() {
                 {expanded[id] ? "Show Less" : "Show More"}
               </button>
               {expanded[id] && (
-                <p className="mt-4 text-gray-700 text-sm">
-                  {description}
-                </p>
+                <p className="mt-4 text-gray-700 text-sm">{description}</p>
               )}
             </div>
           </div>
