@@ -1,11 +1,8 @@
-import React, { useRef } from 'react'
-import youtube from '../public/youtube.png';
-import instagram from '../public/instagram.png';
-import twitter from '../public/twitter.png';
-import facebookicon from '../public/facebook-icon.png';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+
 const Contacts = () => {
-    const form = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -15,7 +12,7 @@ const Contacts = () => {
         console.log(result.text);
         console.log("message sent");
         e.target.reset();
-        alert('Email Sent !');
+        alert('Email Sent!');
       }, (error) => {
         console.log(error.text);
       });
@@ -34,15 +31,10 @@ const Contacts = () => {
           <input type="email" placeholder="your email" className="text-white bg-gray-800 p-4 w-full max-w-xl rounded-lg border border-transparent focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition duration-300" name="from_email" />
           <textarea name="message" className="text-white bg-gray-800 p-4 w-full max-w-xl rounded-lg border border-transparent focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition duration-300" rows="5" placeholder="your message"></textarea>
           <button className="bg-blue-500 text-white py-3 px-14 rounded-full mt-4 mb-4 transition-transform transform hover:scale-105 hover:shadow-lg" type="submit">Submit</button>
-          <div className="flex flex-wrap gap-3 justify-center">
-            <img src={youtube} alt="youtube" className="w-12 h-12 object-cover transition-transform transform hover:scale-110" />
-            <img src={instagram} alt="instagram" className="w-12 h-12 object-cover transition-transform transform hover:scale-110" />
-            <img src={twitter} alt="twitter" className="w-12 h-12 object-cover transition-transform transform hover:scale-110" />
-            <img src={facebookicon} alt="facebook" className="w-12 h-12 object-cover transition-transform transform hover:scale-110" />
-          </div>
         </form>
       </div>
     </section>
   );
 };
-export default Contacts
+
+export default Contacts;
