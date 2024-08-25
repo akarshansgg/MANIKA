@@ -40,15 +40,7 @@ function About() {
              Manikya - Lorem ipsum dolor sit amet consectetuer" appears in Microsoft Word online Help.             </td>
           </tr>
 
-          Mission Statement
-          <tr>
-            <td className="font-semibold text-xl text-white bg-teal-500 py-2 px-4 rounded-t-lg" colSpan="2">Mission Statement</td>
-          </tr>
-          <tr>
-            <td className="text-gray-800 bg-teal-100 border border-teal-200 p-4 rounded-lg" colSpan="2">
-              My mission is to leverage my skills and creativity to deliver innovative Graphic Design solutions that exceed client expectations and make a positive impact on the digital landscape. I am dedicated to continuous learning and growth, always seeking new challenges and opportunities to expand my expertise.
-            </td>
-          </tr>
+         
         </tbody>
       </table>
     </div>
