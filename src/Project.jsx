@@ -17,32 +17,34 @@ function Project() {
     }));
   };
 
-  const cardItems = [
-    {
-      id: 1,
-      logo: Weather,
-      name: "Weather Website",
-      link: "https://www.behance.net/mamsmunu",
-      description:
-        "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
-    },
-    {
-      id: 2,
-      logo: Food,
-      name: "Food Delivery App Design",
-      link: "https://www.behance.net/mamsmunu",
-      description:
-        "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
-    },
-    {
-      id: 3,
-      logo: Buddy,
-      name: "Plant Buddy Application",
-      link: "https://www.behance.net/mamsmunu",
-      description:
-        "An intuitive app designed to help users care for their plants with ease. Features include watering schedules, sunlight recommendations, and plant health tracking, ensuring your plants thrive.",
-    },
-  ];
+ // Instead of importing images, reference them directly
+const cardItems = [
+  {
+    id: 1,
+    logo: "/Weather.png", // Update with correct path and extension
+    name: "Weather Website",
+    link: "https://www.behance.net/mamsmunu",
+    description:
+      "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
+  },
+  {
+    id: 2,
+    logo: "/Food.png", // Update with correct path and extension
+    name: "Food Delivery App Design",
+    link: "https://www.behance.net/mamsmunu",
+    description:
+      "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
+  },
+  {
+    id: 3,
+    logo: "/Buddy.jpg", // Update with correct path and extension
+    name: "Plant Buddy Application",
+    link: "https://www.behance.net/mamsmunu",
+    description:
+      "An intuitive app designed to help users care for their plants with ease. Features include watering schedules, sunlight recommendations, and plant health tracking, ensuring your plants thrive.",
+  },
+];
+
 
   return (
     <div
