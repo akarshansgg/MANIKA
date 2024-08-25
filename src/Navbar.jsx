@@ -33,14 +33,12 @@ function Navbar() {
     <div className="max-w-screen-2xl container mx-auto px-4 md:px-8 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-gray-100 dark:bg-gray-800 transition duration-300">
       <div className="flex justify-between items-center h-16">
         <div className="flex space-x-2 items-center">
-{/*           <a href="hhttps://www.linkedin.com/in/manika-m-manika/">
-            <img */}
+
               src="public\logo.png"
               className="h-12 w-12  border-gray-300"
               alt="Profile"
             />
           </a>
-{/*           <a href="https://www.linkedin.com/in/manika-m-manika/">
             <h1 className="font-semibold text-xl cursor-pointer text-gray-800 dark:text-gray-100"> */}
               MANIKA M<span className="text-blue-600 text-2xl"></span>
               <p className="text-sm text-gray-600 dark:text-gray-400">Graphic Designer</p>
@@ -48,7 +46,7 @@ function Navbar() {
           </a>
         </div>
         {/* Desktop Navbar */}
-        <div className="flex items-center">
+        <div className=" flex items-center">
           <ul className="hidden md:flex space-x-8 text-gray-800 dark:text-gray-100">
             {navItems.map(({ id, text }) => (
               <li
