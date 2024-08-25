@@ -23,6 +23,8 @@ function Project() {
       id: 1,
       logo: Weather,
       name: "Weather Website",
+      link: "https://www.behance.net/mamsmunu",
+
       description: "A weather app built with HTML, CSS, and JavaScript. It provides current weather information based on the user's location and features a clean, responsive design. This project showcases skills in web development and API integration.",
     },
    
