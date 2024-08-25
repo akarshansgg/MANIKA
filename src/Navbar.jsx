@@ -34,7 +34,7 @@ function Navbar() {
       <div className="flex justify-between items-center h-16">
         <div className="flex space-x-2 items-center">
   <img
-    src="public/logo.png"
+    src="/logo.png"
     className="h-12 w-12 border-gray-300"
     alt="Profile"
   />
