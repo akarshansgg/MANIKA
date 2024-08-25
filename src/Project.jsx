@@ -5,7 +5,7 @@ import Weather from "../public/Weather.png";
 import Game from "../public/Game.png";
 import Lending from "../public/Lending.png";
 import Netflix from "../public/Netflix.png";
-
+import Buddy from "../public/Buddy.jpg";
 function Project() {
   const [expanded, setExpanded] = useState({});
 
@@ -35,8 +35,8 @@ function Project() {
     },
     {
       id: 3,
-      logo: Food,
-      name: "Food Delivery App Design",
+      logo: Buddy,
+      name: "Plant Buddy Application",
       link: "https://www.behance.net/mamsmunu",
       description: "A user-friendly food delivery app design with easy navigation, real-time order tracking, and secure payments. Personalization, loyalty rewards, and restaurant filters enhance the experience.",
     },
@@ -58,7 +58,7 @@ function Project() {
             key={id}
             className="border-2 border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300 overflow-hidden bg-white"
           >
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <a href={link} target="_blank" rel="no opener no-referrer">
               <div className="relative cursor-pointer">
                 <img
                   src={logo}
