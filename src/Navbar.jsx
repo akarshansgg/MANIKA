@@ -40,7 +40,7 @@ function Navbar() {
   />
   <div>
     <h1 className="font-semibold text-xl cursor-pointer text-gray-800 dark:text-gray-100">
-      MANIKA M<span className="text-blue-600 text-2xl"></span>
+      MANIKYA M<span className="text-blue-600 text-2xl"></span>
     </h1>
     <p className="text-sm text-gray-600 dark:text-gray-400">Graphic Designer</p>
   </div>
