@@ -40,8 +40,8 @@ function Navbar() {
               alt="Profile"
             />
           </a>
-          <a href="https://www.linkedin.com/in/manika-m-manika/">
-            <h1 className="font-semibold text-xl cursor-pointer text-gray-800 dark:text-gray-100">
+{/*           <a href="https://www.linkedin.com/in/manika-m-manika/">
+            <h1 className="font-semibold text-xl cursor-pointer text-gray-800 dark:text-gray-100"> */}
               MANIKA M<span className="text-blue-600 text-2xl"></span>
               <p className="text-sm text-gray-600 dark:text-gray-400">Graphic Designer</p>
             </h1>
