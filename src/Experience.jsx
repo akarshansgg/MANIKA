@@ -29,8 +29,7 @@ function Experience() {
       <h1 className="text-4xl font-bold text-center mb-8 text-gray-900">
         SKILL SETS
       </h1>
-      <p className="text-center text-lg mb-10 text-gray-700">
-      UX/UI designer with a solid grasp of SDLC, STLC, and SQL, now transitioning to software quality engineering with 4 years in customer service.     </p>
+      
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
         {cardItem.map(({ id, logo, name }) => (
           <div
